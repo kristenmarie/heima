@@ -1,0 +1,8 @@
+.container {
+  margin: $containerFluidNavOffset $containerSideMargin $containerSideMargin $containerSideMargin;
+  max-width: $maxWidth;
+
+  display: grid;
+  grid-auto-rows: auto;
+  grid-auto-columns: auto;
+}
