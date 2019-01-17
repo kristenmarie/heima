@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin');
 
+@import 'mixins/button';
+@import 'mixins/media-queries';
+
 @import 'abstracts/variables';
 
 @import 'base/reset';
@@ -9,6 +12,6 @@
 @import 'components/container';
 @import 'components/fluid-nav';
 
-@import 'mixins/media-queries';
+
 
 @import 'utilities/grid-utilities';
