@@ -13,3 +13,13 @@ button {
 .btn-blue {
   @include button($lightHeimaBlue);
 }
+
+.btn-pill {
+  border-radius: $pill;
+}
+
+div .btn-group {
+  display: flex;
+  flex-flow: row wrap;
+}
+
