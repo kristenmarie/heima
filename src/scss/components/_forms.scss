@@ -51,6 +51,11 @@ input[type="reset"] {
   font-size: .9rem;
 }
 
+input[type="reset"]:focus {
+  outline: none;
+  box-shadow: 0 0 10px $lightHeimaYellow;
+}
+
 //Checkbox Styles
 input[type=checkbox] + label {
   display: block;
