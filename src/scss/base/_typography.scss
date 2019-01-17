@@ -4,6 +4,10 @@ body {
   line-height: $baseLineHeight;
 }
 
+button {
+  font-size: $smallFont;
+}
+
 h1 {
   font-size: $h1FontSize;
 }

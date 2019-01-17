@@ -1,6 +1,7 @@
 
 // Colors
 $heimaGreen: #004d40;
+$lighterHeimaGreen: lighten($heimaGreen, 5%);
 $navTextColor: white;
 
 
@@ -17,6 +18,8 @@ $font: 'Cabin', sans-serif;
 // Typography
 $baseLineHeight: 1.2;
 $baseFontSize: 1rem;
+
+$smallFont: 0.75rem;
 
 $h1FontSize: $baseFontSize * 2.5;
 $h2FontSize: $baseFontSize * 2;
