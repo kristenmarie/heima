@@ -1,0 +1,135 @@
+// Bounce up
+@keyframes bounce-up{
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.bounce-up:hover {
+  animation: bounce-up 0.5s;
+}
+
+// Bounce Down
+@keyframes bounce-down{
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.bounce-down:hover {
+  animation: bounce-down 0.5s;
+}
+
+// Bounce Right
+@keyframes bounce-right{
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(10px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+.bounce-right:hover {
+  animation: bounce-right 0.5s;
+}
+
+// Bounce Left
+@keyframes bounce-left{
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(-10px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+.bounce-left:hover {
+  animation: bounce-left 0.5s;
+}
+
+// Bounce Up Right
+@keyframes bounce-up-right{
+  0% {
+    transform: translate(0px, 0px);
+  }
+  50% {
+    transform: translate(10px, -10px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+.bounce-up-right:hover {
+  animation: bounce-up-right 0.5s;
+}
+
+// Bounce Down Right
+@keyframes bounce-down-right{
+  0% {
+    transform: translate(0px, 0px);
+  }
+  50% {
+    transform: translate(10px, 10px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+.bounce-down-right:hover {
+  animation: bounce-down-right 0.5s;
+}
+
+// Bounce Up Left
+@keyframes bounce-up-left{
+  0% {
+    transform: translate(0px, 0px);
+  }
+  50% {
+    transform: translate(-10px, -10px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+.bounce-up-left:hover {
+  animation: bounce-up-left 0.5s;
+}
+
+// Bounce Down Left
+@keyframes bounce-down-left{
+  0% {
+    transform: translate(0px, 0px);
+  }
+  50% {
+    transform: translate(-10px, 10px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+.bounce-down-left:hover {
+  animation: bounce-down-left 0.5s;
+}

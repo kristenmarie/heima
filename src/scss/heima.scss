@@ -3,8 +3,9 @@
 @import 'mixins/button';
 @import 'mixins/media-queries';
 
-@import 'animations/spin';
-@import 'animations/wiggle';
+@import 'animations/hover/bounce';
+@import 'animations/hover/spin';
+@import 'animations/hover/wiggle';
 
 @import 'abstracts/variables';
 
