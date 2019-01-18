@@ -1,0 +1,29 @@
+// Spin Forward
+
+@keyframes spin-forward {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.spin-forward:hover {
+  animation: spin-forward 2s;
+}
+
+// Spin Backward
+
+@keyframes spin-backward {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+.spin-backward:hover {
+  animation: spin-backward 2s;
+}
