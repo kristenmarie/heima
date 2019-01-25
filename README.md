@@ -9,7 +9,7 @@ There are currently two ways to install Heima.
 #### Installing Using npm:
 Inside your project directory run:
 ```
-  npm install heima
+  npm install heima-frontend
   ```
 #### Downloading or Cloning the Git Repository:
 Download the zip file for Heima by clicking the green Clone or download button followed by Download ZIP.
