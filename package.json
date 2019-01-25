@@ -1,7 +1,7 @@
 {
   "name": "heima",
   "version": "1.0.0",
-  "description": "",
+  "description": "A cozy front-end library. HTML/Sass",
   "main": "heima.js",
   "browserslist": [
     "> 1%",
@@ -12,8 +12,8 @@
     "start": "npm run build; webpack-dev-server --mode development --open"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Kristen Kulha and William Kulha",
+  "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^9.4.5",
     "clean-webpack-plugin": "^0.1.18",
